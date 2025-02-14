@@ -1,0 +1,31 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.containerHeader{
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    padding: 20px;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerHeader .container_Img{
+    height: 50px;
+}
+.containerHeader .container_Img .img_logo{
+   height: 100%;
+   width: 100%;
+}
+.containerHeader .navBar{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
